@@ -1,0 +1,27 @@
+body {
+    background-color: #6cb387af;
+}
+
+#howdy {
+    color: #4c850b;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description {
+    color: #1215d6;
+    float: left;
+    width: 20000px;
+}
+
+#picures {
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#link {
+    background-color: 190px;
+    color: rgb(218, 19, 19);
+}
