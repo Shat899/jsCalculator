@@ -1,8 +1,8 @@
 // strat calculator
-calculator ();
 
     function calculator() {
             while (true) {
+                const masiv = []
                 for (i = 0; i < 1; i++) {
                     theFirstNumber = prompt('Enter the first digit', '');
 
@@ -10,13 +10,14 @@ calculator ();
                         alert('No detected digits');
                         i--;
 
-                    } else {
+                    } 
+                    else {
                         convTheFirstNumber = parseFloat(theFirstNumber);
                         masiv[0] = convTheFirstNumber;
                     }
                 }
                 for (i = 0; i < 1; i++) {
-                    operator = prompt('Enter +,-,*,/ ', '');
+                    operator = prompt('Enter + , - , * , / ', '');
                     if (operator !== '+' && operator !== '-' && operator !== '*' && operator !== '/') {
                         alert('No detected operator');
                         i--;
@@ -141,4 +142,3 @@ calculator ();
 
             }
         }
-
